@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>土鍋炊きごはん ひより - アクセス</title>
+    <meta name="description" content="アットホームで落ち着いた雰囲気の定食屋" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ファビコン -->
+    <link rel="icon" type="image/png" href="images/myファビコン.png" />
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/2.css" />
+
+    <style>
+      /* FAQカバー画像 */
+      .cover-faq {
+        background-image: url(images/outside.webp);
+      }
+
+      /* アコーディオン全体 */
+      .faq {
+        max-width: 736px;
+        margin: 0 auto 5rem;
+        padding: 0 1.5rem;
+      }
+
+      /* 1つのQ&Aブロック */
+      .accordion-item {
+        border-bottom: 1px solid #ddd;
+      }
+
+      /* 質問ボタン */
+      .accordion-question {
+        width: 100%;
+        text-align: left;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 1.25rem 2.5rem 1.25rem 0;
+        font-size: 1.1rem;
+        font-family: "Noto Serif JP", serif;
+        color: #432;
+        position: relative;
+        line-height: 1.6;
+      }
+
+      /* 矢印アイコン */
+      .accordion-question::after {
+        content: "▼";
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 0.75rem;
+        color: #552200;
+        transition: transform 0.3s;
+      }
+
+      /* 開いたときに矢印を反転 */
+      .accordion-question.is-open::after {
+        transform: translateY(-50%) rotate(180deg);
+      }
+
+      /* 回答（初期状態：非表示） */
+      .accordion-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+      }
+
+      /* 回答（開いた状態） */
+      .accordion-answer.is-open {
+        max-height: 300px;
+      }
+
+      .accordion-answer p {
+        font-family: "Noto Serif JP", serif;
+
+        padding: 0 0.5rem 1.25rem;
+        color: #666;
+        line-height: 1.8;
+      }
+
+      /* Q / A ラベル */
+      .label-q,
+      .label-a {
+        display: inline-block;
+        font-family: "Noto Serif JP", serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+      .label-q {
+        color: #552200;
+      }
+      .label-a {
+        color: #8c3003;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="sub-cover cover-contact">
+      <header class="page-header wrapper">
+        <h1 class="align-center">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="images/ロゴ鍋2.png"
+              alt="土鍋炊きごはん ひより"
+          /></a>
+        </h1>
+
+        <nav>
+          <ul class="main-nav font-english">
+            <li><a href="limited.html"> おすすめ</a></li>
+            <li><a href="merchandise.html">お品書き</a></li>
+            <li><a href="Access.html">アクセス</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h2 class="page-title font-english">アクセス</h2>
+    </div>
+
+    <main class="wrapper">
+      <section class="location">
+        <div class="location-info">
+          <h3 class="heading-medium font-english">土鍋炊きごはん ひより</h3>
+          <table class="info">
+            <tr>
+              <th>住所</th>
+              <td>東京都港区六本木 ０-０ ◯◯◯</td>
+            </tr>
+
+            <tr>
+              <th>電話</th>
+              <td>03-1111-XXXX</td>
+            </tr>
+
+            <tr>
+              <th>営業時間</th>
+              <td>10:30〜22:30 (ラストオーダー22:00)</td>
+            </tr>
+
+            <tr>
+              <th>定休日</th>
+              <td>水曜</td>
+            </tr>
+          </table>
+        </div>
+        <div class="location-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4474333723583!2d139.73430457636096!3d35.66598337259227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b835ec8b0af%3A0x9b0355e3df3a9ebc!2z5YWt5pys5pyoROOCueOCr-OCqOOCog!5e0!3m2!1sja!2sjp!4v1692599396785!5m2!1sja!2sjp"
+            width="720"
+            height="320"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="email">
+        <h3 class="heading-medium font-english">お問い合わせ</h3>
+        <p>
+          以下のボタンからメールにてお問い合わせください。2営業日以内にご返信させていただいております。
+          もし数日中に返事が無い場合は、正しく受信できなかった可能性がありますので、
+          恐れ入りますが下記のSNS、もしくはお電話にて再度ご連絡ください。
+        </p>
+        <div class="align-center">
+          <a class="btn" href="mailto:info@example.com"
+            >お問い合わせ フォーム</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <main class="faq">
+      <section>
+        <h3 class="heading-medium font-english" style="margin-bottom: 2rem">
+          よくあるご質問
+        </h3>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>予約はできますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >ランチタイム（10:30〜14:30）のお席のご予約は承っておりません。先着順でのご案内となります。ディナータイム（17:00〜）につきましては、お電話にてご予約を承っております。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >ご飯のおかわりや大盛りは変更できますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >はい、可能です。ご飯の大盛りは+80円、おかわりは1杯まで無料で承っております。ガッツリ食べたい方もぜひお気軽にお申し付けください。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >テイクアウト（お持ち帰り）は対応していますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >一部メニューを除き、お弁当形式でのテイクアウトが可能です。事前にお電話（または店頭）でご予約いただくと、お待たせせずにお渡しできます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >一人でも利用しやすいですか？カウンター席はありますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >もちろんです!お一人様でも気兼ねなくお食事を楽しんでいただけるよう、カウンター席を8席ご用意しております。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >クレジットカードや電子マネー、バーコード決済は使えますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >当店では、現金のほかクレジットカード（VISA/Mastercard等）、交通系ICカード、各種電子マネー、バーコード（PayPay等）の決済をご利用いただけます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >アレルギー情報や使用食材について教えてください。
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >主要アレルギー物質（小麦・卵・乳・アレルゲン等）の状況については、スタッフまでお尋ねください。調理器具や揚げ油は共有しておりますので、重度のアレルギーをお持ちの方は事前にご相談いただけますと幸いです。
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span
+            >子ども連れ・ベビーカーでの来店は可能ですか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >大歓迎です。お子様用のお茶碗やスプーン・フォーク、お子様用チェアもご用意しております。ベビーカーのままご入店いただけるよう配慮いたしますので、お気軽にお声がけください。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="align-center" style="margin-top: 3rem">
+        <a class="btn" href="contact.html">その他のお問い合わせ</a>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <h3 class="heading-large font-english">土鍋炊きごはん ひより</h3>
+      <!-- 表 -->
+      <table class="info">
+        <tr>
+          <th>住所</th>
+          <td>東京都港区六本木 ０-０ ◯◯◯</td>
+        </tr>
+
+        <tr>
+          <th>電話</th>
+          <td>03-1111-XXXX</td>
+        </tr>
+
+        <tr>
+          <th>営業時間</th>
+          <td>10:30〜22:30 (ラストオーダー22:00)</td>
+        </tr>
+
+        <tr>
+          <th>定休日</th>
+          <td>水曜</td>
+        </tr>
+      </table>
+      <div class="flex-box">
+        <img
+          class="icon"
+          src="images/インスタグラムアイコン.png"
+          alt="インスタグラム"
+        />
+      </div>
+
+      <!-- コピーライト -->
+      <div class="copyright">
+        <small>&copy; 2026 土鍋炊きごはん ひより </small>
+      </div>
+    </footer>
+
+    <script>
+      const q0 = document.querySelectorAll(".accordion-question")[0];
+      const q1 = document.querySelectorAll(".accordion-question")[1];
+      const q2 = document.querySelectorAll(".accordion-question")[2];
+      const q3 = document.querySelectorAll(".accordion-question")[3];
+      const q4 = document.querySelectorAll(".accordion-question")[4];
+      const q5 = document.querySelectorAll(".accordion-question")[5];
+      const q6 = document.querySelectorAll(".accordion-question")[6];
+
+      q0.addEventListener("click", function () {
+        q0.nextElementSibling.classList.toggle("is-open");
+        q0.classList.toggle("is-open");
+      });
+      q1.addEventListener("click", function () {
+        q1.nextElementSibling.classList.toggle("is-open");
+        q1.classList.toggle("is-open");
+      });
+      q2.addEventListener("click", function () {
+        q2.nextElementSibling.classList.toggle("is-open");
+        q2.classList.toggle("is-open");
+      });
+      q3.addEventListener("click", function () {
+        q3.nextElementSibling.classList.toggle("is-open");
+        q3.classList.toggle("is-open");
+      });
+      q4.addEventListener("click", function () {
+        q4.nextElementSibling.classList.toggle("is-open");
+        q4.classList.toggle("is-open");
+      });
+      q5.addEventListener("click", function () {
+        q5.nextElementSibling.classList.toggle("is-open");
+        q5.classList.toggle("is-open");
+      });
+
+      q6.addEventListener("click", function () {
+        q6.nextElementSibling.classList.toggle("is-open");
+        q6.classList.toggle("is-open");
+      });
+    </script>
+  </body>
+</html>
